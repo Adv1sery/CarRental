@@ -7,23 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434131502BC1700E007F49BD /* GeeksBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341314F2BC1700E007F49BD /* GeeksBarView.swift */; };
+		434131522BC1703E007F49BD /* GeeksBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434131512BC1703E007F49BD /* GeeksBarModel.swift */; };
+		434131562BC174CC007F49BD /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434131552BC174CC007F49BD /* UIColor.swift */; };
+		434131592BC4103F007F49BD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434131582BC4103F007F49BD /* MainView.swift */; };
+		4341315B2BC41047007F49BD /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341315A2BC41047007F49BD /* MainModel.swift */; };
+		4341315D2BC4105C007F49BD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341315C2BC4105C007F49BD /* MainViewController.swift */; };
+		4341315F2BC56B5E007F49BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4341315E2BC56B5E007F49BD /* GoogleService-Info.plist */; };
+		434131622BC7EFF2007F49BD /* JustCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434131612BC7EFF2007F49BD /* JustCollectionViewCell.swift */; };
+		434131652BC808D2007F49BD /* qrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434131642BC808D2007F49BD /* qrButton.swift */; };
+		434131672BC80AA3007F49BD /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434131662BC80AA3007F49BD /* CustomTabBarController.swift */; };
+		434131692BC80AEE007F49BD /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434131682BC80AEE007F49BD /* CustomTabBar.swift */; };
+		4341316E2BC80EF0007F49BD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341316D2BC80EF0007F49BD /* ChatViewController.swift */; };
+		434131702BC8224A007F49BD /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341316F2BC8224A007F49BD /* NavigationViewController.swift */; };
+		434131722BC82298007F49BD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434131712BC82298007F49BD /* ProfileViewController.swift */; };
+		434131762BC95867007F49BD /* JustTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434131752BC95867007F49BD /* JustTableViewCell.swift */; };
+		4341317C2BCD735D007F49BD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341317B2BCD735D007F49BD /* DetailsViewController.swift */; };
+		4341317E2BCE6704007F49BD /* DetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341317D2BCE6704007F49BD /* DetailsModel.swift */; };
+		434131802BCE67F7007F49BD /* DetailsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341317F2BCE67F7007F49BD /* DetailsTableCell.swift */; };
+		437EAE8D2BBEEEE50016EB55 /* Pods_GeeksBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437EAE8C2BBEEEE50016EB55 /* Pods_GeeksBar.framework */; };
 		4387316D2BBEE42700E36F3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387316C2BBEE42700E36F3E /* AppDelegate.swift */; };
 		4387316F2BBEE42700E36F3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387316E2BBEE42700E36F3E /* SceneDelegate.swift */; };
-		438731712BBEE42700E36F3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438731702BBEE42700E36F3E /* ViewController.swift */; };
-		438731742BBEE42700E36F3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438731722BBEE42700E36F3E /* Main.storyboard */; };
+		438731712BBEE42700E36F3E /* GeeksBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438731702BBEE42700E36F3E /* GeeksBarViewController.swift */; };
 		438731762BBEE42800E36F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438731752BBEE42800E36F3E /* Assets.xcassets */; };
 		438731792BBEE42800E36F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438731772BBEE42800E36F3E /* LaunchScreen.storyboard */; };
+		7CAE729087797913BDA91DC5 /* Pods_GeeksBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3453E9BDCF4B96EF03552B27 /* Pods_GeeksBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3453E9BDCF4B96EF03552B27 /* Pods_GeeksBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeeksBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4341314F2BC1700E007F49BD /* GeeksBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeeksBarView.swift; sourceTree = "<group>"; };
+		434131512BC1703E007F49BD /* GeeksBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeeksBarModel.swift; sourceTree = "<group>"; };
+		434131552BC174CC007F49BD /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		434131582BC4103F007F49BD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4341315A2BC41047007F49BD /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		4341315C2BC4105C007F49BD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4341315E2BC56B5E007F49BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		434131612BC7EFF2007F49BD /* JustCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCollectionViewCell.swift; sourceTree = "<group>"; };
+		434131642BC808D2007F49BD /* qrButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrButton.swift; sourceTree = "<group>"; };
+		434131662BC80AA3007F49BD /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		434131682BC80AEE007F49BD /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		4341316D2BC80EF0007F49BD /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4341316F2BC8224A007F49BD /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		434131712BC82298007F49BD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		434131752BC95867007F49BD /* JustTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustTableViewCell.swift; sourceTree = "<group>"; };
+		434131772BCA9ECF007F49BD /* Cars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Cars.json; sourceTree = "<group>"; };
+		4341317B2BCD735D007F49BD /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		4341317D2BCE6704007F49BD /* DetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsModel.swift; sourceTree = "<group>"; };
+		4341317F2BCE67F7007F49BD /* DetailsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableCell.swift; sourceTree = "<group>"; };
+		437EAE8C2BBEEEE50016EB55 /* Pods_GeeksBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_GeeksBar.framework; path = "../../../Library/Developer/Xcode/DerivedData/GeeksBar-dgrtvuogrdqhbqgplxnfmgbedlmd/Build/Products/Debug-iphoneos/Pods_GeeksBar.framework"; sourceTree = "<group>"; };
 		438731692BBEE42700E36F3E /* GeeksBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeeksBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4387316C2BBEE42700E36F3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4387316E2BBEE42700E36F3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		438731702BBEE42700E36F3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		438731732BBEE42700E36F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		438731702BBEE42700E36F3E /* GeeksBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeeksBarViewController.swift; sourceTree = "<group>"; };
 		438731752BBEE42800E36F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		438731782BBEE42800E36F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4387317A2BBEE42800E36F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6227E31A688D4FB9BD861AB9 /* Pods-GeeksBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeeksBar.release.xcconfig"; path = "Target Support Files/Pods-GeeksBar/Pods-GeeksBar.release.xcconfig"; sourceTree = "<group>"; };
+		C3043DF7E025BA1F18941164 /* Pods-GeeksBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeeksBar.debug.xcconfig"; path = "Target Support Files/Pods-GeeksBar/Pods-GeeksBar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +72,133 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437EAE8D2BBEEEE50016EB55 /* Pods_GeeksBar.framework in Frameworks */,
+				7CAE729087797913BDA91DC5 /* Pods_GeeksBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		434131532BC17136007F49BD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				434131512BC1703E007F49BD /* GeeksBarModel.swift */,
+				4341314F2BC1700E007F49BD /* GeeksBarView.swift */,
+				438731702BBEE42700E36F3E /* GeeksBarViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		434131542BC17206007F49BD /* Supporing + UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				434131552BC174CC007F49BD /* UIColor.swift */,
+			);
+			path = "Supporing + UIColor";
+			sourceTree = "<group>";
+		};
+		434131572BC4100C007F49BD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				434131772BCA9ECF007F49BD /* Cars.json */,
+				434131732BC9583D007F49BD /* CollectionView */,
+				4341317A2BCD733D007F49BD /* Details */,
+				4341315A2BC41047007F49BD /* MainModel.swift */,
+				434131582BC4103F007F49BD /* MainView.swift */,
+				4341315C2BC4105C007F49BD /* MainViewController.swift */,
+				434131742BC9584C007F49BD /* TableView */,
+				434131632BC808BC007F49BD /* TabBar */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		434131632BC808BC007F49BD /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				434131642BC808D2007F49BD /* qrButton.swift */,
+				434131662BC80AA3007F49BD /* CustomTabBarController.swift */,
+				434131682BC80AEE007F49BD /* CustomTabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		4341316A2BC80E0D007F49BD /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				4341316D2BC80EF0007F49BD /* ChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		4341316B2BC80E40007F49BD /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4341316F2BC8224A007F49BD /* NavigationViewController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		4341316C2BC80E5A007F49BD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				434131712BC82298007F49BD /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		434131732BC9583D007F49BD /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				434131612BC7EFF2007F49BD /* JustCollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		434131742BC9584C007F49BD /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				434131752BC95867007F49BD /* JustTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		4341317A2BCD733D007F49BD /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				4341317D2BCE6704007F49BD /* DetailsModel.swift */,
+				4341317B2BCD735D007F49BD /* DetailsViewController.swift */,
+				4341317F2BCE67F7007F49BD /* DetailsTableCell.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		437EAE892BBEEE8A0016EB55 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4387316C2BBEE42700E36F3E /* AppDelegate.swift */,
+				4387316E2BBEE42700E36F3E /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		437EAE8A2BBEEE990016EB55 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4341315E2BC56B5E007F49BD /* GoogleService-Info.plist */,
+				438731752BBEE42800E36F3E /* Assets.xcassets */,
+				438731772BBEE42800E36F3E /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		438731602BBEE42700E36F3E = {
 			isa = PBXGroup;
 			children = (
 				4387316B2BBEE42700E36F3E /* GeeksBar */,
 				4387316A2BBEE42700E36F3E /* Products */,
+				7AAD8C0FB9F15F53C9302AAC /* Pods */,
+				C6BDEF7400C484814E6E681C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +213,35 @@
 		4387316B2BBEE42700E36F3E /* GeeksBar */ = {
 			isa = PBXGroup;
 			children = (
-				4387316C2BBEE42700E36F3E /* AppDelegate.swift */,
-				4387316E2BBEE42700E36F3E /* SceneDelegate.swift */,
-				438731702BBEE42700E36F3E /* ViewController.swift */,
-				438731722BBEE42700E36F3E /* Main.storyboard */,
-				438731752BBEE42800E36F3E /* Assets.xcassets */,
-				438731772BBEE42800E36F3E /* LaunchScreen.storyboard */,
+				434131532BC17136007F49BD /* Login */,
+				434131572BC4100C007F49BD /* Main */,
+				4341316A2BC80E0D007F49BD /* Chat */,
+				4341316B2BC80E40007F49BD /* Navigation */,
+				4341316C2BC80E5A007F49BD /* Profile */,
+				434131542BC17206007F49BD /* Supporing + UIColor */,
+				437EAE8A2BBEEE990016EB55 /* Support */,
+				437EAE892BBEEE8A0016EB55 /* Delegates */,
 				4387317A2BBEE42800E36F3E /* Info.plist */,
 			);
 			path = GeeksBar;
+			sourceTree = "<group>";
+		};
+		7AAD8C0FB9F15F53C9302AAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3043DF7E025BA1F18941164 /* Pods-GeeksBar.debug.xcconfig */,
+				6227E31A688D4FB9BD861AB9 /* Pods-GeeksBar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6BDEF7400C484814E6E681C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				437EAE8C2BBEEEE50016EB55 /* Pods_GeeksBar.framework */,
+				3453E9BDCF4B96EF03552B27 /* Pods_GeeksBar.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4387317D2BBEE42800E36F3E /* Build configuration list for PBXNativeTarget "GeeksBar" */;
 			buildPhases = (
+				5D34EF4565172ECEB3193285 /* [CP] Check Pods Manifest.lock */,
 				438731652BBEE42700E36F3E /* Sources */,
 				438731662BBEE42700E36F3E /* Frameworks */,
 				438731672BBEE42700E36F3E /* Resources */,
+				05FDF1F12227994E7D0AAFA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +306,85 @@
 			files = (
 				438731792BBEE42800E36F3E /* LaunchScreen.storyboard in Resources */,
 				438731762BBEE42800E36F3E /* Assets.xcassets in Resources */,
-				438731742BBEE42700E36F3E /* Main.storyboard in Resources */,
+				4341315F2BC56B5E007F49BD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05FDF1F12227994E7D0AAFA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeeksBar/Pods-GeeksBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeeksBar/Pods-GeeksBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeeksBar/Pods-GeeksBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D34EF4565172ECEB3193285 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeeksBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		438731652BBEE42700E36F3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				438731712BBEE42700E36F3E /* ViewController.swift in Sources */,
+				4341317E2BCE6704007F49BD /* DetailsModel.swift in Sources */,
+				434131622BC7EFF2007F49BD /* JustCollectionViewCell.swift in Sources */,
+				4341315B2BC41047007F49BD /* MainModel.swift in Sources */,
+				434131672BC80AA3007F49BD /* CustomTabBarController.swift in Sources */,
+				434131702BC8224A007F49BD /* NavigationViewController.swift in Sources */,
+				434131692BC80AEE007F49BD /* CustomTabBar.swift in Sources */,
+				434131502BC1700E007F49BD /* GeeksBarView.swift in Sources */,
+				434131722BC82298007F49BD /* ProfileViewController.swift in Sources */,
+				434131592BC4103F007F49BD /* MainView.swift in Sources */,
+				434131562BC174CC007F49BD /* UIColor.swift in Sources */,
+				434131762BC95867007F49BD /* JustTableViewCell.swift in Sources */,
+				434131522BC1703E007F49BD /* GeeksBarModel.swift in Sources */,
+				4341317C2BCD735D007F49BD /* DetailsViewController.swift in Sources */,
+				438731712BBEE42700E36F3E /* GeeksBarViewController.swift in Sources */,
+				4341315D2BC4105C007F49BD /* MainViewController.swift in Sources */,
+				4341316E2BC80EF0007F49BD /* ChatViewController.swift in Sources */,
+				434131802BCE67F7007F49BD /* DetailsTableCell.swift in Sources */,
 				4387316D2BBEE42700E36F3E /* AppDelegate.swift in Sources */,
 				4387316F2BBEE42700E36F3E /* SceneDelegate.swift in Sources */,
+				434131652BC808D2007F49BD /* qrButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		438731722BBEE42700E36F3E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				438731732BBEE42700E36F3E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		438731772BBEE42800E36F3E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,16 +517,17 @@
 		};
 		4387317E2BBEE42800E36F3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3043DF7E025BA1F18941164 /* Pods-GeeksBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GeeksBar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,16 +545,17 @@
 		};
 		4387317F2BBEE42800E36F3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6227E31A688D4FB9BD861AB9 /* Pods-GeeksBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GeeksBar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
