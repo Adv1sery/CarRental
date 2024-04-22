@@ -60,6 +60,7 @@ class MainViewController: UIViewController {
         setupCollView()
         setupTableView()
         getCars()
+        setupNavigationItem()
     }
     
     override func viewDidLayoutSubviews() {
@@ -114,6 +115,11 @@ class MainViewController: UIViewController {
         mainGeeksBar.onNavItemTapped = { [ weak self ] in
             guard let self = self else { return }
         }
+    }
+    
+    private func setupNavigationItem() {
+        navigationItem.title = "Home"
+        navigationItem.hidesBackButton = true
     }
     
     private func setupCollView() {

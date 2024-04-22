@@ -36,7 +36,7 @@ class DetailsViewController: UIViewController {
     }()
 
     var detail: Details?
-//    var cars: [carss] = [] 
+//    var cars: [carss] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,9 +70,9 @@ class DetailsViewController: UIViewController {
         view.addSubview(detailTableView)
         
         detailTableView.snp.makeConstraints { make in
-            make.top.equalTo(upView.snp.bottom).offset(-15)
+            make.top.equalTo(upView.snp.bottom).offset(15)
             make.horizontalEdges.equalToSuperview()
-            make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
+            make.bottom.equalTo(view.safeAreaLayoutGuide)
         }
     }
 
@@ -94,8 +94,10 @@ extension DetailsViewController: UITableViewDelegate {
 extension DetailsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView,
                    numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 10
     }
+    
+    
     
     func tableView(_ tableView: UITableView,
                    cellForRowAt indexPath: IndexPath) -> UITableViewCell {

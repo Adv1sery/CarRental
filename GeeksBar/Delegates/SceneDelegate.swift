@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         
-        let nav1 = UINavigationController(rootViewController: CustomTabBarController())
+        let nav1 = UINavigationController(rootViewController: GeeksBarViewController())
         
         window.rootViewController = nav1
         
